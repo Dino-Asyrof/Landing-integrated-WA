@@ -797,17 +797,17 @@
 <script src="https://cdn.botpress.cloud/webchat/v5.0/inject.js"></script>
 <script src="https://files.bpcontent.cloud/2026/10/20/13/20261020132247-NS6F5QQH.js" defer></script>
 
-<!-- Kode CSS Override untuk Geser Botpress ke Kiri Bawah -->
+<!-- CSS Override Paksa ke Kiri -->
 <style>
-  div[class^="bp"], 
-  iframe[class^="bp"],
-  #bp-web-widget-container,
-  .bpw-widget-btn {
+  [id*="bp-"],
+  [class*="bp-"],
+  iframe[src*="botpress"],
+  .bp-widget-web,
+  div[style*="right"] {
     left: 20px !important;
     right: auto !important;
   }
 </style>
-
     </body>
 
     <script src="./scripts/utils.js"></script>
